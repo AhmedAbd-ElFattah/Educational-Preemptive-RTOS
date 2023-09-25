@@ -54,7 +54,7 @@ EduRTOS configured through "EduRTOS_Config.h" file, The following table descripe
 - Priority range is from 1 to "EduRTOS_MAX_NUMBER_OF_TASKS", where EduRTOS_MAX_NUMBER_OF_TASKS is defined and configured in "EduRTOS_Config.h" which indicated the maximum number of tasks in the system
 
 ## Passing arguments to task
-Due to rules that ARM cortex-M4 processor behaves with function argument, In EduRTOS values passed to tasks are classified into Register parameters & Stack parameters.
+Due to rules that ARM cortex-M4 processor behaves with function argument, In EduRTOS values passed to tasks are classified into Register parameters & Stack parameters. (Current version support only Register parameter)
 
 #### Task parameters
 - Includes maximum 4 parameters each parameter has datatype less than or equal 32-bit
